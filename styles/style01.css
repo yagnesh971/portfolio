@@ -190,10 +190,40 @@ header{
     }
 }
 @media (min-width: 600px){
-    .about-me{
-        line-height: 18pt;
-        padding: 100px 0 130px 0;
-    }
+   section {
+    color: #616161;
+    line-height: 11pt;
+    padding: 70px 0 70px 0;
+    position: relative;
+}
+   section .container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    width: 100%;
+}
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header {
+    color: #444649;
+    font-family: "raleway-bold";
+    font-size: 25pt;
+    position: relative;
+}
+div{
+    display: block;
+}
+.header-bar {
+    background: #444649;
+    height: 4px;
+    margin: 25px 0 75px 0;
+    width: 70px;
+}
 }
 .footer {
     background: #111;
