@@ -130,6 +130,10 @@ header{
 .section__subtitle--intro {
     display: inline-block;
 }
+.about-container{
+    flex-direction: row;
+    }
+
 
 @media (min-width: 600px) {
     .intro {
@@ -191,7 +195,9 @@ header{
     
     .service + .service {
         margin-left: 2em;
+        max-width: 600px;
     }
+    
 }
 @media (min-width: 600px){
    .header{
