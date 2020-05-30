@@ -195,7 +195,6 @@ header{
     
     .service + .service {
         margin-left: 2em;
-        max-width: 600px;
     }
     
 }
