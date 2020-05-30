@@ -170,6 +170,8 @@ header{
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section__title--services {
